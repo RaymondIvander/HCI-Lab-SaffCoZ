@@ -10,6 +10,7 @@ body {
     justify-content: center;
     padding: 0;
     margin: 0;
+    background-color: #C7D9C0;
 }
 
 header{
@@ -44,4 +45,206 @@ a{
 
 .menu a:hover{
     color: #DBE45C;
+}
+
+.body1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+
+.left img{
+    width: 423px;
+    height: 859px;
+    object-fit: cover;
+}
+
+.right{
+    background-color: #004C37;
+}
+
+.righttext{
+    margin: 0px 30px 0px 30px;
+}
+
+.right h1{
+    font-family: "Baskervville SC", serif;
+    color: white;
+    font-size: 64px;
+    font-weight: lighter;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-input label{
+    font-family: "Baskervville SC", serif;
+    font-size: 24px;
+    color: white;
+}
+
+.form-input input{
+    width: 794px;
+    height: 34px;
+    border-radius: 10px;
+}
+
+.gender{
+    display: flex;
+    flex-direction: row;
+    gap: 20px   ;
+}
+
+.gender label {
+    font-family: "Baskervville SC", serif;
+    font-size: 24px;
+    color: white;
+}
+
+.gender input[type="radio"]{
+    width: 20px;
+    height: 20px;
+}
+
+.checklistcontainer{
+    display: flex ;
+    margin-top: 20px;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.checker{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.checker p{
+    font-family: "Baskervville SC", serif;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    margin-left: 10px;
+    color: white;
+}
+
+.checker input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+
+.submitbtn{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+button{
+    width: 794px;
+    height: 77px;
+    background-color: #DBE45C;
+}
+
+.sub{
+    font-family: "Baskervville SC", serif;
+    font-size: 36px;
+    color: #1D4339;
+    border: 1px solid #DBE45C;
+    border-radius: 15px;
+}
+
+footer { 
+    background-image: linear-gradient(to bottom , #BEE1B2, #C7D9C0);
+    display: flex;
+    /* justify-content: flex-start; */
+    justify-content: center;
+    width: 100%;
+    height: 350px;
+    gap: 500px;
+    padding: 50px 0px 0px 0px;
+}
+
+.left3{
+    width: 500px;
+    height: 95px;
+}
+
+.left3 h1{
+    color: white;
+    font-size: 64px;
+    font-family: "Baskervville SC", serif;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.left3 p{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 100px;
+}
+
+.info4{
+    color: white;
+    font-size: 24px;
+    font-family: "Baskervville SC", serif;
+}
+
+.right3{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.right-text3{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+.right-text3 a{
+    color: white;
+    font-size: 32px;
+    font-family: "Baskervville SC", serif;
+}
+
+.right-text4{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.right-text4 p{
+    margin: 0;
+    color: white;
+    font-size: 32px;
+}
+
+.media{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.media a{
+    font-family: "Baskervville SC", serif;
+    font-size: 18px;
+}
+
+.extra{
+    border: 1px solid white;
+    background-color: #C7D9C0;
+    text-align: center;
+}
+
+.extra h1 {
+    font-size: 256px;
+    font-family: "Baskervville SC", serif;
+    color: white;
+    margin: 0;
+    font-weight: lighter;
 }
