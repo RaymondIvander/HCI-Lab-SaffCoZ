@@ -432,6 +432,43 @@ footer {
         text-align: center;
     }
 
+    .body1, .body2, .body3, .body4, .body5 {
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+    }
+
+    .image-class{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info3, .info2{
+        flex-direction: column;
+    }
+
+    .right img, .right2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .left, .left2 {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .left h1, .left2 h1 {
+        font-size: 48px;
+    }
+
+    .left-text .left-button, .left2 button {
+        width: 100%;
+        padding: 15px;
+        font-size: 20px;
+    }
+
+
+
     footer {
         flex-direction: row;
         gap: 30px;
