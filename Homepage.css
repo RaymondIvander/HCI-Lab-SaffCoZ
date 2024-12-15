@@ -272,7 +272,7 @@ a{
 .left2{
     display: flex;
     background-color: #004C37;
-    margin: 275px 0 0 35px;
+    margin: 215px 0 0 35px;
     max-width: 770px;
     max-height: 333px;
     flex-direction: column;

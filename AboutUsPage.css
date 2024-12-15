@@ -1,0 +1,330 @@
+*::-webkit-scrollbar{
+    display: none;
+}
+
+*{
+    font-family: "Baskervville", serif;
+}
+
+body { 
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 19px 0px 19px 44px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004C37;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo a{
+    font-size: 32px;
+}
+
+.menu{
+    display: flex;
+    gap: 53px;
+    margin-right: 100px;
+}
+
+.menu a { 
+    font-size: 20px;
+}
+
+.menu a:hover{
+    color: #DBE45C;
+}
+
+.body1{
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom , #BEE1B2, #C7D9C0);
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+}
+
+.body1 h1{
+    color: #1D4339;
+    font-size: 128px;
+    font-family: "Baskervville SC", serif;
+    font-weight: lighter;
+    margin: 25px 0 15px 0px;
+}
+
+.image-class{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.image-class img {
+    border-radius: 25px;
+    margin: 0;
+    width: 288px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.image-class .bod1{
+    width: 310px;
+    height: 425px;
+    object-fit: cover;
+}
+
+.image-class .bod2{
+    width: 288px;
+    height: 385px;
+    object-fit: cover;
+}
+
+.body2{
+    justify-content: center;
+    padding: 0px 100px 0 100px;
+    background-color: #C7D9C0;
+    display: flex;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+}
+
+.right{
+    background-color: #004C37;
+    width: 652px;
+    height: 650px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    align-content: center;
+}
+
+.text-wrapper{
+    padding: 30px;
+}
+
+.right h1{
+    font-family: "Baskervville SC", serif;
+    font-size: 64px;
+    color: white;
+    font-weight: lighter;
+    margin-top: 100px;
+}
+
+.right .lol{
+    color: #DBE45C;
+    font-size: 24px;
+    margin: 0;
+}
+
+.right .lol1{
+    margin-top: 19px;
+    color: white;
+    font-size: 20px;
+    width: 563px;
+    height: 280px;
+}
+
+.body3{
+    justify-content: center;
+    padding: 0px 100px 0 100px;
+    background-color: #C7D9C0;
+    display: flex;
+    gap: 175px;
+}
+
+.left2{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 32px;
+}   
+
+.left2 h1{
+    font-family: "Baskervville SC", serif;
+    color: #1D4339;
+    font-weight: lighter;
+}
+
+.left2 p{
+    text-align: left;
+    font-size: 20px;
+    width: 564px;
+    height: 93px;
+}
+
+.right2{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.right2 h1{
+    font-family: "Baskervville SC", serif;
+    color: #1D4339;
+    font-weight: lighter;
+}
+
+.right2 p{
+    text-align: left;
+    font-size: 20px;
+    width: 564px;
+    height: 93px;
+}
+
+.body4 { 
+    justify-items: center;
+    align-items: center;
+    padding: 75px 100px 0 100px;
+    background-color: #C7D9C0;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.body4 h1 {
+    font-size: 64px;
+    font-family: "Baskervville SC", serif;
+    color: #1D4339;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.lo1{
+    display: flex;
+    gap: 64px;
+}
+
+.lo1 img{ 
+    border-radius: 25px;
+    width: 393px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.lo2{
+    display: flex;
+    gap: 127px;
+}
+
+.lo2 img{
+    border-radius: 25px;
+    width: 393px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.body5{
+    justify-content: center;
+    background-color: #C7D9C0;
+    display: flex;
+}
+
+.body5 h1{
+    font-size: 40px;
+    font-family: "Baskervville SC", serif;
+    color: #1D4339;
+    font-weight: lighter;
+    margin-top: 60px;
+}
+
+footer { 
+    background-image: linear-gradient(to bottom , #BEE1B2, #C7D9C0);
+    display: flex;
+    /* justify-content: flex-start; */
+    justify-content: center;
+    width: 100%;
+    height: 350px;
+    gap: 500px;
+    padding: 50px 0px 0px 0px;
+}
+
+.left3{
+    width: 500px;
+    height: 95px;
+}
+
+.left3 h1{
+    color: white;
+    font-size: 64px;
+    font-family: "Baskervville SC", serif;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.left3 p{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 100px;
+}
+
+.info4{
+    color: white;
+    font-size: 24px;
+    font-family: "Baskervville SC", serif;
+}
+
+.right3{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.right-text3{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+.right-text3 a{
+    color: white;
+    font-size: 32px;
+    font-family: "Baskervville SC", serif;
+}
+
+.right-text4{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.right-text4 p{
+    margin: 0;
+    color: white;
+    font-size: 32px;
+}
+
+.media{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.media a{
+    font-family: "Baskervville SC", serif;
+    font-size: 18px;
+}
+
+.extra{
+    border: 1px solid white;
+    background-color: #C7D9C0;
+    text-align: center;
+}
+
+.extra h1 {
+    font-size: 256px;
+    font-family: "Baskervville SC", serif;
+    color: white;
+    margin: 0;
+    font-weight: lighter;
+}

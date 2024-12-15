@@ -1,0 +1,47 @@
+*::-webkit-scrollbar{
+    display: none;
+}
+
+*{
+    font-family: "Baskervville", serif;
+}
+
+body { 
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 19px 0px 19px 44px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004C37;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo a{
+    font-size: 32px;
+}
+
+.menu{
+    display: flex;
+    gap: 53px;
+    margin-right: 100px;
+}
+
+.menu a { 
+    font-size: 20px;
+}
+
+.menu a:hover{
+    color: #DBE45C;
+}
