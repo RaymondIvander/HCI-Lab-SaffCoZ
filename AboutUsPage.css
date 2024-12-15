@@ -328,3 +328,201 @@ footer {
     margin: 0;
     font-weight: lighter;
 }
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: row;
+        align-items: center; 
+        padding: 10px 20px;
+        height: auto;
+    }
+
+    .logo {
+        flex: 1; 
+    }
+
+    .logo a {
+        font-size: 24px;
+    }
+
+    .menu {
+        flex: 2; 
+        display: flex;
+        flex-direction: row;
+        gap: 30px; 
+        margin: 0;
+    }
+
+    .menu a {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .image-class img,
+    .lo1 img,
+    .lo2 img {
+        width: 80%;  
+        max-width: 100%;  
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .extra {
+        padding: 20px;
+    }
+
+    .extra h1 {
+        font-size: 64px;
+    }
+
+    .body1 {
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+    }
+
+    .body1 h1 {
+        font-size: 64px;
+        text-align: center;
+    }
+
+    .image-class {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .image-class img {
+        width: 40%;
+        height: auto;
+    }
+
+    .body2 {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .left img{
+        display: none;
+    }
+
+    .box {
+        flex-direction: column;
+    }
+
+    .right {
+        width: 100%;
+        height: auto;
+        border-radius: 25px;
+        margin-bottom: 20px;
+    }
+
+    .right h1 {
+        font-size: 32px;
+    }
+
+    .right .lol {
+        font-size: 18px;
+    }
+
+    .right .lol1 {
+        font-size: 16px;
+        width: 100%;
+        height: auto;
+    }
+
+    .body3 {
+        flex-direction: column;
+        padding: 0;
+        gap: 40px;
+    }
+
+    .left2, .right2 {
+        padding-top: 0;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .left2 h1, .right2 h1 {
+        font-size: 32px;
+    }
+
+    .left2 p, .right2 p {
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .body4 {
+        flex-direction: column;
+        padding: 50px 20px;
+        gap: 40px;
+    }
+
+    .body4 h1 {
+        font-size: 48px;
+    }
+
+    .lo1, .lo2 {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .lo1 img, .lo2 img {
+        width: 50%;
+        height: auto;
+    }
+
+    .body5 h1 {
+        font-size: 32px;
+    }
+
+    footer {
+        flex-direction: row;
+        gap: 30px;
+        padding: 20px 10px;
+        height: auto;
+    }
+
+    .left3 {
+        width: 400px;
+        text-align: center;
+    }
+
+    .left3 h1 {
+        font-size: 48px;
+    }
+
+    .left3 p {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .info4 {
+        font-size: 18px;
+    }
+
+    .right3 {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .right-text3 a, .right-text4 p {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .media {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .media a {
+        font-size: 14px;
+    }
+
+    .extra h1 {
+        font-size: 96px;
+    }
+}

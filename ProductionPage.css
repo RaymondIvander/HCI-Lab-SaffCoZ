@@ -197,3 +197,101 @@ footer {
     font-weight: lighter;
 }
 
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: row;
+        align-items: center; 
+        padding: 10px 20px;
+        height: auto;
+    }
+
+    .logo {
+        flex: 1; 
+    }
+
+    .logo a {
+        font-size: 24px;
+    }
+
+    .menu {
+        flex: 2; 
+        display: flex;
+        flex-direction: row;
+        gap: 30px; 
+        margin: 0;
+    }
+
+    .menu a {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .product img, .product2 img {
+        width: 300px;
+        height: auto;
+    }
+
+    .text-wrapper {
+        width: 500px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .information h1 {
+        font-size: 32px;
+    }
+
+    .information p {
+        font-size: 16px;
+    }
+
+    footer {
+        flex-direction: row;
+        gap: 30px;
+        padding: 20px 10px;
+        height: auto;
+    }
+
+    .left3 {
+        width: 400px;
+        text-align: center;
+    }
+
+    .left3 h1 {
+        font-size: 48px;
+    }
+
+    .left3 p {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .info4 {
+        font-size: 18px;
+    }
+
+    .right3 {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .right-text3 a, .right-text4 p {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .media {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .media a {
+        font-size: 14px;
+    }
+
+    .extra h1 {
+        font-size: 96px;
+    }
+}
